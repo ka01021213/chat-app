@@ -6,8 +6,4 @@ module SignInSupport
     click_on("Log in")
     expect(current_path).to eq root_path
   end
-<<<<<<< Updated upstream
 end
-=======
-end
->>>>>>> Stashed changes
